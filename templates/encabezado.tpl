@@ -1,0 +1,1 @@
+<h2 id="titulo">José Yair Mendoza Zamudio - <small>[{$titulo}]</small></h2>
