@@ -1,5 +1,4 @@
-<?php 
-	require_once dirname(__file__)."/../libs/Smarty/Smarty.class.php";
-	//require_once('libs/Smarty/Smarty.class.php');
-	$oSmarty = new Smarty();
+<?php
+	require_once('lib/smarty/Smarty.class.php');	
+	$oSmarty = new Smarty;
 ?>

@@ -1,1 +1,1 @@
-<h2 id="titulo">José Yair Mendoza Zamudio - <small>[{$titulo}]</small></h2>
+<h2 id="titulo">Erick Hernández Najera - <small>[{$titulo}]</small></h2>

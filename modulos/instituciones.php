@@ -1,5 +1,6 @@
-<?php 
-	$oSmarty -> assign("titulo","Insituciones");
-	$oSmarty -> assign("menu","insituciones");
-	$oSmarty -> assign("contenido","instituciones.tpl");
+<?php
+
+	$oSmarty->assign("titulo", "Instituciones");
+	$oSmarty->assign("menu", "instituciones");
+	$oSmarty->assign("contenido","instituciones.tpl");
 ?>

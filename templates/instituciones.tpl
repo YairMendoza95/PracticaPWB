@@ -42,7 +42,7 @@
 				<tr >
 					<td rowspan="6" ><a href="#">Gastronomía</a></td>
 					<td  >Restaurantes</td>
-					<td rowspan="3" > <img src="imgs/ahs.jpg" class="img img-responsive"></td>            
+					<td rowspan="3" > <img src="imgs/1.jpg" class="img img-responsive"></td>            
 				</tr>
 					<tr  >                
 					<td  >Sidrerías y asadores</td>                              
@@ -52,7 +52,7 @@
 					</tr>
 				 </tr>
 					<tr class="central2">                
-					<td rowspan="3" ><img src="imgs/eva.jpg" class="img img-responsive"></td>                          
+					<td rowspan="3" ><img src="imgs/2.jpg" class="img img-responsive"></td>                          
 				</tr>
 					<tr >                
 					<td  >Productos Típicos</td>               
@@ -63,7 +63,7 @@
 					<tr >
 					<td rowspan="3"><a href="#">Ocio</a></td>
 					<td >Entretenimiento y diversión</td>
-					<td rowspan="3"><img src="imgs/mk.jpg" class="img img-responsive"></td>            
+					<td rowspan="3"><img src="imgs/3.jpg" class="img img-responsive"></td>            
 				</tr>
 					<tr >                
 					<td >Ocio cultural</td>                           

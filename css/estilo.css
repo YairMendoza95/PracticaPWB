@@ -1,9 +1,12 @@
 .ins{ background-color: #8CACD4; }
 
-#info{ font-family: "Comic Sans MS", sans-serif; color:#7FFF00; font-size: 12; }
-
-body{ padding-top: 50px; 
-	background-color: #388E8E; 
+body{ 
+	padding-top: 50px; 
+	background-color: #388E8E;
+	font-family: "Comic Sans MS", 
+	sans-serif; 
+	color:#7FFF00; 
+	font-size: 12; 
 }
 
 .foco:focus{
@@ -12,11 +15,4 @@ body{ padding-top: 50px;
 
 .foco:blur{
   background-color: white;
-}
-
-#titulo{
-	text-shadow: 2px 2px 1px #555;
-	border-radius: 20px;
-	padding: 10px;
-	box-shadow: inset 0px 0px 10px #000;
 }

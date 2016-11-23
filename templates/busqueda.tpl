@@ -15,7 +15,7 @@
                 <div class="col-md-3 form-group">
                     <label for="titulo2">Obra</label>
                     <div class="input-group">
-                        <div class="input-group-addon"><span class="glyphicon glyphicon-book"></span></div>
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-tent"></span></div>
                         <input type="text" class="form-control" id="titulo2" name="titulo2" placeholder="Título">
                     </div>
                     <div class="input-group">
