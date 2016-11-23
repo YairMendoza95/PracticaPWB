@@ -11,7 +11,7 @@
 			$oSmarty->assign("titulo", "");
 			$oSmarty->assign("menu", "");
 			$oSmarty->assign("contenido", "bco.tpl");
-			header("Location:index.php?pagina=rbd");
+			header("Location:index.php?modulo=rbd");
 		break;
 
 		case 'guardar':
@@ -26,7 +26,7 @@
 			$oSmarty->assign("titulo", "");
 			$oSmarty->assign("menu", "");
 			$oSmarty->assign("contenido", "bco.tpl");
-			header("Location:index.php?pagina=rbd");
+			header("Location:index.php?modulo=rbd");
 		break;
 
 		case 'nuevo':

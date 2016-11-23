@@ -12,7 +12,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
-<body>
+<body id="estilo">
 	{include file="menu.tpl"}
     <div class="container">
     	<div class="row">

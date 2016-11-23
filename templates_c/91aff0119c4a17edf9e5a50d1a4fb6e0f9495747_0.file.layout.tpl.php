@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2016-11-21 11:47:47
+<?php /* Smarty version 3.1.24, created on 2016-11-23 20:48:38
          compiled from "./templates/layout.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:294945832d0d31ed4f7_91913943%%*/
+/*%%SmartyHeaderCode:91625835f2966ebb57_92172514%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '91aff0119c4a17edf9e5a50d1a4fb6e0f9495747' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1479723139,
+      1 => 1479930490,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '294945832d0d31ed4f7_91913943',
+  'nocache_hash' => '91625835f2966ebb57_92172514',
   'variables' => 
   array (
     'titulo' => 0,
@@ -22,23 +22,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_5832d0d3341867_40211481',
+  'unifunc' => 'content_5835f2968a3bd0_38217308',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5832d0d3341867_40211481')) {
-function content_5832d0d3341867_40211481 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5835f2968a3bd0_38217308')) {
+function content_5835f2968a3bd0_38217308 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '294945832d0d31ed4f7_91913943';
+$_smarty_tpl->properties['nocache_hash'] = '91625835f2966ebb57_92172514';
 ?>
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html />
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalablew=no">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title><?php echo $_smarty_tpl->tpl_vars['titulo']->value;?>
 </title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 	<?php echo '<script'; ?>
  type="text/javascript" src="js/jquery.min.js"><?php echo '</script'; ?>
@@ -50,26 +51,27 @@ $_smarty_tpl->properties['nocache_hash'] = '294945832d0d31ed4f7_91913943';
  type="text/javascript" src="js/script.js"><?php echo '</script'; ?>
 >
 </head>
-<body>
+<body id="estilo">
 	<?php echo $_smarty_tpl->getSubTemplate ("menu.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['encabezado']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-8 col-md-offset-2">
+    			<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['encabezado']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 
-			</div>
-		</div>
-		<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['contenido']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+    		</div>
+    	</div>
+        <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['contenido']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
-
+	
 	</div>
-	<?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+	<?php echo $_smarty_tpl->getSubTemplate ("pie.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 
 </body>
-</html><?php }
+</html>
+<?php }
 }
 ?>

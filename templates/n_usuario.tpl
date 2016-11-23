@@ -3,12 +3,12 @@
 		<div class="row alert alert-info">
 		<!--Inicio boton de cancelar-->
 			<b class="col-md-7">{if $modificar}Editar{else}Nuevo{/if} usuario</b>
-			<form class="col-md-2" action="index.php?pagina=rbd" method="post">
+			<form class="col-md-2" action="index.php?modulo=rbd" method="post">
 				<button class="btn  btn-primary btn-lg" type="submit"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
 			</form>
 		<!--fin boton de cancelar-->
 		</div>
-		<form method="post" action="index.php?pagina=rbd&accion=guardar{if $modificar}&id={$usuario.usuario_id}{/if}">
+		<form method="post" action="index.php?modulo=rbd&accion=guardar{if $modificar}&id={$usuario.usuario_id}{/if}">
 			<div class="form-group">
 				<label for="nombre">Nombre Completo: </label>
 				<input type="text" id="nombre" class="form-control" name="nombre" placeholder="Nombre Completo" value="{$usuario.nombre}" />

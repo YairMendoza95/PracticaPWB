@@ -3,7 +3,7 @@
 		<h2>Usuarios</h2>
 	</div>
 	<div class="col-md-2">
-		<a href="index.php?pagina=rbd&accion=nuevo" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-plus-sign"></span> Usuario</a>
+		<a href="index.php?modulo=rbd&accion=nuevo" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-plus-sign"></span> Usuario</a>
 	</div>
 </div>
 <div class="row">
@@ -25,8 +25,8 @@
 				<td>{$usuario.nombre}</td>
 				<td>{$usuario.usuario}</td>
 				<td>
-					<a href="index.php?pagina=rbd&accion=eliminar&id={$usuario.usuario_id}" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a>
-					<a href="index.php?pagina=rbd&accion=editar&id={$usuario.usuario_id}" class="btn btn-info"><span class="glyphicon glyphicon-edit"></span></a>
+					<a href="index.php?modulo=rbd&accion=eliminar&id={$usuario.usuario_id}" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a>
+					<a href="index.php?modulo=rbd&accion=editar&id={$usuario.usuario_id}" class="btn btn-info"><span class="glyphicon glyphicon-edit"></span></a>
 				</td>
 			</tr>
 			{/foreach}
