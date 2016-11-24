@@ -37,5 +37,11 @@
 
 			$oBD->query($sql);
 		}
+
+		function validar($usuario, $password){
+			$oBD = new BD();
+			$sql = "Select * from usuarios where usuario='{$usuario}' and pswd='{$password}'";
+			return $oBD -> query($sql, true);
+		}
 	}
  ?>

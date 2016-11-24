@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	require_once('include/smarty.php');
 
 	$modulo = isset($_GET['modulo']) ? $_GET['modulo'] : "inicio";

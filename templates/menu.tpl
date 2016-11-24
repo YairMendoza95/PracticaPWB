@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-static-top">
 	<div class="container">
 		<div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#opciones1" aria-expanded="false">
@@ -18,6 +18,7 @@
         <li {if $menu eq "script"}class="active"{/if}><a href="index.php?modulo=script">[<span class="glyphicon glyphicon-console"></span>] Javascript</a></li>
         <li {if $menu eq "jquery"}class="active"{/if}><a href="index.php?modulo=jquery"><span class="glyphicon glyphicon-save"></span> JQuery</a></li>
         <li {if $menu eq "rbd"}class="active"{/if}><a href="index.php?modulo=rbd"><span class="glyphicon glyphicon-plus"></span> MySQL</a></li>
+        <li {if $menu eq "login"}class="active"{/if}><a href="index.php?modulo=login"><span class="glyphicon glyphicon-user"></span> Login</a></li>
       </ul>
 	</div>
 </nav>

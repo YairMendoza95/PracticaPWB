@@ -1,5 +1,5 @@
 <div class="navbar navbar-default">
 	<div class="container">
-		<p align="center">Desarrollado por: ECK-HDZ-NJR_2015</p>
+		<p align="center">Desarrollado por: José Yair Mendoza Zamudio</p>
 	</div>
 </div>
