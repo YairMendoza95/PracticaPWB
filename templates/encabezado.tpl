@@ -1,1 +1,1 @@
-<h2 id="titulo">Erick Hernández Najera - <small>[{$titulo}]</small></h2>
+<h2 id="titulo">{if empty($uActivo)}Sistema v1.0 {else}{$uActivo.nombre}{/if}- <small>[{$titulo}]</small></h2>

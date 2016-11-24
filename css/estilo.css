@@ -2,11 +2,14 @@
 
 #estilo{ 
 	background-color: #388E8E;
-	font-family: "Comic Sans MS", 
-	sans-serif; 
-	color:#7FFF00; 
+	font-family: "Comic Sans MS", sans-serif; 
 	font-size: 12; 
 }
+
+#cuerpo{color:#7FFF00; }
+
+h2{ color: black; }
+
 
 .foco:focus{
   background-color: orange;

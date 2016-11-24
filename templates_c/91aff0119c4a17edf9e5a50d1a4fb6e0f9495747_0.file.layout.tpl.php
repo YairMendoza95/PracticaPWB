@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2016-11-23 20:48:38
+<?php /* Smarty version 3.1.24, created on 2016-11-24 21:58:16
          compiled from "./templates/layout.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:91625835f2966ebb57_92172514%%*/
+/*%%SmartyHeaderCode:20666583754682728d5_35975932%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '91aff0119c4a17edf9e5a50d1a4fb6e0f9495747' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1479930490,
+      1 => 1480021093,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '91625835f2966ebb57_92172514',
+  'nocache_hash' => '20666583754682728d5_35975932',
   'variables' => 
   array (
     'titulo' => 0,
@@ -22,13 +22,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_5835f2968a3bd0_38217308',
+  'unifunc' => 'content_583754687247f5_13906136',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5835f2968a3bd0_38217308')) {
-function content_5835f2968a3bd0_38217308 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_583754687247f5_13906136')) {
+function content_583754687247f5_13906136 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '91625835f2966ebb57_92172514';
+$_smarty_tpl->properties['nocache_hash'] = '20666583754682728d5_35975932';
 ?>
 <!DOCTYPE html />
 <html>
@@ -63,9 +63,12 @@ $_smarty_tpl->properties['nocache_hash'] = '91625835f2966ebb57_92172514';
 
     		</div>
     	</div>
-        <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['contenido']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+    	<div class="row" id="estilo">
+    		<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['contenido']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
-	
+	Z
+    	</div>
+        
 	</div>
 	<?php echo $_smarty_tpl->getSubTemplate ("pie.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>

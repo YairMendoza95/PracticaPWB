@@ -1,6 +1,8 @@
 <?php
 	session_start();
 	require_once('include/smarty.php');
+	$uActivo = isset($_SESSION['usuario']) ? $_SESSION['usuario'] : array();
+	$oSmarty -> assign("uActivo", $uActivo);
 
 	$modulo = isset($_GET['modulo']) ? $_GET['modulo'] : "inicio";
 

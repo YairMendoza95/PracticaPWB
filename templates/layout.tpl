@@ -20,7 +20,10 @@
     			{include file=$encabezado}
     		</div>
     	</div>
-        {include file=$contenido}	
+    	<div class="row" id="estilo">
+    		{include file=$contenido}	Z
+    	</div>
+        
 	</div>
 	{include file="pie.tpl"}
 </body>

@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2016-11-23 22:38:18
+<?php /* Smarty version 3.1.24, created on 2016-11-24 21:21:42
          compiled from "./templates/menu.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1868958360c4af07545_94445974%%*/
+/*%%SmartyHeaderCode:2796958374bd6cec4b4_70470727%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '74a219b8aaeeaf21cd3f34ff2fdebb602d333888' => 
     array (
       0 => './templates/menu.tpl',
-      1 => 1479937096,
+      1 => 1480018900,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1868958360c4af07545_94445974',
+  'nocache_hash' => '2796958374bd6cec4b4_70470727',
   'variables' => 
   array (
     'menu' => 0,
+    'uActivo' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_58360c4b0ab0f7_96211790',
+  'unifunc' => 'content_58374bd6e6d580_60826156',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_58360c4b0ab0f7_96211790')) {
-function content_58360c4b0ab0f7_96211790 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_58374bd6e6d580_60826156')) {
+function content_58374bd6e6d580_60826156 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '1868958360c4af07545_94445974';
+$_smarty_tpl->properties['nocache_hash'] = '2796958374bd6cec4b4_70470727';
 ?>
 <nav class="navbar navbar-inverse navbar-static-top">
 	<div class="container">
@@ -48,7 +49,11 @@ $_smarty_tpl->properties['nocache_hash'] = '1868958360c4af07545_94445974';
         <li <?php if ($_smarty_tpl->tpl_vars['menu']->value == "script") {?>class="active"<?php }?>><a href="index.php?modulo=script">[<span class="glyphicon glyphicon-console"></span>] Javascript</a></li>
         <li <?php if ($_smarty_tpl->tpl_vars['menu']->value == "jquery") {?>class="active"<?php }?>><a href="index.php?modulo=jquery"><span class="glyphicon glyphicon-save"></span> JQuery</a></li>
         <li <?php if ($_smarty_tpl->tpl_vars['menu']->value == "rbd") {?>class="active"<?php }?>><a href="index.php?modulo=rbd"><span class="glyphicon glyphicon-plus"></span> MySQL</a></li>
-        <li <?php if ($_smarty_tpl->tpl_vars['menu']->value == "login") {?>class="active"<?php }?>><a href="index.php?modulo=login"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+        <?php if (empty($_smarty_tpl->tpl_vars['uActivo']->value)) {?>
+        	<li <?php if ($_smarty_tpl->tpl_vars['menu']->value == "login") {?>class="active"<?php }?>><a href="index.php?modulo=login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <?php } else { ?>
+        	<li <?php if ($_smarty_tpl->tpl_vars['menu']->value == "logout") {?>class="active"<?php }?>><a href="index.php?modulo=logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        <?php }?>	
       </ul>
 	</div>
 </nav>

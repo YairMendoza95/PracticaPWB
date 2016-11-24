@@ -18,7 +18,11 @@
         <li {if $menu eq "script"}class="active"{/if}><a href="index.php?modulo=script">[<span class="glyphicon glyphicon-console"></span>] Javascript</a></li>
         <li {if $menu eq "jquery"}class="active"{/if}><a href="index.php?modulo=jquery"><span class="glyphicon glyphicon-save"></span> JQuery</a></li>
         <li {if $menu eq "rbd"}class="active"{/if}><a href="index.php?modulo=rbd"><span class="glyphicon glyphicon-plus"></span> MySQL</a></li>
-        <li {if $menu eq "login"}class="active"{/if}><a href="index.php?modulo=login"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+        {if empty($uActivo)}
+        	<li {if $menu eq "login"}class="active"{/if}><a href="index.php?modulo=login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        {else}
+        	<li {if $menu eq "logout"}class="active"{/if}><a href="index.php?modulo=logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        {/if}	
       </ul>
 	</div>
 </nav>
